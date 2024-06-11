@@ -16,9 +16,9 @@ class TravelHome extends ConsumerStatefulWidget {
 class _TravelHomeState extends ConsumerState<TravelHome> {
   @override
   Widget build(BuildContext context) {
-    final size = MediaQuery.sizeOf(context);
-    final height = size.height;
-    final width = size.width;
+    // final size = MediaQuery.sizeOf(context);
+    // final height = size.height;
+    // final width = size.width;
     final assets = [
       "assets/wall1.jpg",
       "assets/wall2.jpg",
@@ -52,7 +52,7 @@ class _CustomGalleryState extends State<CustomGallery> {
   @override
   Widget build(BuildContext context) {
     final size = MediaQuery.sizeOf(context);
-    final height = size.height;
+    // final height = size.height;
     final width = size.width;
     return ValueListenableBuilder(
       valueListenable: index,
